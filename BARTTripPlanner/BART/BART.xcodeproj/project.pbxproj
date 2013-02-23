@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* BARTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* BARTAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		28860B770F44E54D00985440 /* BART.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 28860B760F44E54D00985440 /* BART.xcdatamodel */; };
+		28860BE50F44EE6400985440 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28860BE40F44EE6400985440 /* CoreData.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		2899E5600DE3E45000AC0155 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E55F0DE3E45000AC0155 /* RootViewController.xib */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
+		5661A5A71135E87C00414A0C /* EnterDestination.m in Sources */ = {isa = PBXBuildFile; fileRef = 5661A5A51135E87C00414A0C /* EnterDestination.m */; };
+		5661A5AC1135E89300414A0C /* DisplayCostRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 5661A5AA1135E89300414A0C /* DisplayCostRoute.m */; };
+		5661A5AD1135E89300414A0C /* DisplayCostRoute.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5661A5AB1135E89300414A0C /* DisplayCostRoute.xib */; };
+		5661A5BC1135ED0500414A0C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5661A5BA1135ED0500414A0C /* MainViewController.m */; };
+		5661A5BD1135ED0500414A0C /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5661A5BB1135ED0500414A0C /* MainViewController.xib */; };
+		566D2F83113E14BA009256A0 /* RoutesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 566D2F81113E14BA009256A0 /* RoutesViewController.m */; };
+		566D2F84113E14BB009256A0 /* RoutesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 566D2F82113E14BA009256A0 /* RoutesViewController.xib */; };
+		566D2F91113E25A9009256A0 /* TripLegWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 566D2F90113E25A9009256A0 /* TripLegWrapper.m */; };
+		566D33E5113E832E009256A0 /* PastTripsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 566D33E3113E832E009256A0 /* PastTripsTableViewController.m */; };
+		566D3425113E86DD009256A0 /* PastTripsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 566D3424113E86DD009256A0 /* PastTripsTableViewController.xib */; };
+		566D35CD113EA648009256A0 /* TicketInfo1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 566D35CB113EA648009256A0 /* TicketInfo1ViewController.m */; };
+		566D35CE113EA648009256A0 /* TicketInfo1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 566D35CC113EA648009256A0 /* TicketInfo1ViewController.xib */; };
+		569A5C59113B650C00FFDEB3 /* TripWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 569A5C58113B650C00FFDEB3 /* TripWrapper.m */; };
+		56A79015113BAC1300EE9BD5 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A79013113BAC1300EE9BD5 /* MapViewController.m */; };
+		56A79016113BAC1300EE9BD5 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56A79014113BAC1300EE9BD5 /* MapViewController.xib */; };
+		56A7901A113BAEB100EE9BD5 /* Pandav_BART_Map.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A79019113BAEB100EE9BD5 /* Pandav_BART_Map.png */; };
+		56A8245B113CD918002A836A /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A82459113CD918002A836A /* ScheduleViewController.m */; };
+		56A8245C113CD918002A836A /* ScheduleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56A8245A113CD918002A836A /* ScheduleViewController.xib */; };
+		56A82460113CE27E002A836A /* TimeWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A8245F113CE27E002A836A /* TimeWrapper.m */; };
+		56A8BBD511364B8C00C07EE1 /* EnterDestination.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56A8BBD411364B8C00C07EE1 /* EnterDestination.xib */; };
+		56A8BC0711365E9600C07EE1 /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A8BC0611365E9600C07EE1 /* XMLParser.m */; };
+		56CD0E8E113EB78E004BC69F /* Step1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CD0E8C113EB78E004BC69F /* Step1ViewController.m */; };
+		56CD0E8F113EB78E004BC69F /* Step1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56CD0E8D113EB78E004BC69F /* Step1ViewController.xib */; };
+		56CD0E93113EB79A004BC69F /* Step2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CD0E91113EB79A004BC69F /* Step2ViewController.m */; };
+		56CD0E94113EB79A004BC69F /* Step2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56CD0E92113EB79A004BC69F /* Step2ViewController.xib */; };
+		56CD0E98113EB7A4004BC69F /* Step3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CD0E96113EB7A4004BC69F /* Step3ViewController.m */; };
+		56CD0E99113EB7A4004BC69F /* Step3ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56CD0E97113EB7A4004BC69F /* Step3ViewController.xib */; };
+		56CD0E9D113EB7AE004BC69F /* Step4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CD0E9B113EB7AE004BC69F /* Step4ViewController.m */; };
+		56CD0E9E113EB7AE004BC69F /* Step4ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56CD0E9C113EB7AE004BC69F /* Step4ViewController.xib */; };
+		56CD1034113ED014004BC69F /* bart-kiosk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56CD102F113ED014004BC69F /* bart-kiosk.jpg */; };
+		56CD1035113ED014004BC69F /* bart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56CD1030113ED014004BC69F /* bart.jpg */; };
+		56CD1036113ED014004BC69F /* bartgate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56CD1031113ED014004BC69F /* bartgate.jpg */; };
+		56CD1037113ED014004BC69F /* gate_machine-r.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56CD1032113ED014004BC69F /* gate_machine-r.jpg */; };
+		56CD1038113ED014004BC69F /* SSF_BART_southbound_tracks_sign.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 56CD1033113ED014004BC69F /* SSF_BART_southbound_tracks_sign.JPG */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* BARTAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BARTAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* BARTAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BARTAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* BART.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BART.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28860B760F44E54D00985440 /* BART.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = BART.xcdatamodel; sourceTree = "<group>"; };
+		28860BE40F44EE6400985440 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E55F0DE3E45000AC0155 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		28A0AAE50D9B0CCF005BE974 /* BART_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BART_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5661A5A41135E87C00414A0C /* EnterDestination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterDestination.h; sourceTree = "<group>"; };
+		5661A5A51135E87C00414A0C /* EnterDestination.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterDestination.m; sourceTree = "<group>"; };
+		5661A5A91135E89300414A0C /* DisplayCostRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayCostRoute.h; sourceTree = "<group>"; };
+		5661A5AA1135E89300414A0C /* DisplayCostRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayCostRoute.m; sourceTree = "<group>"; };
+		5661A5AB1135E89300414A0C /* DisplayCostRoute.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DisplayCostRoute.xib; sourceTree = "<group>"; };
+		5661A5B91135ED0500414A0C /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		5661A5BA1135ED0500414A0C /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		5661A5BB1135ED0500414A0C /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		566D2F80113E14BA009256A0 /* RoutesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoutesViewController.h; sourceTree = "<group>"; };
+		566D2F81113E14BA009256A0 /* RoutesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoutesViewController.m; sourceTree = "<group>"; };
+		566D2F82113E14BA009256A0 /* RoutesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RoutesViewController.xib; sourceTree = "<group>"; };
+		566D2F8F113E25A9009256A0 /* TripLegWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripLegWrapper.h; sourceTree = "<group>"; };
+		566D2F90113E25A9009256A0 /* TripLegWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripLegWrapper.m; sourceTree = "<group>"; };
+		566D33E2113E832E009256A0 /* PastTripsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PastTripsTableViewController.h; sourceTree = "<group>"; };
+		566D33E3113E832E009256A0 /* PastTripsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PastTripsTableViewController.m; sourceTree = "<group>"; };
+		566D3424113E86DD009256A0 /* PastTripsTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PastTripsTableViewController.xib; sourceTree = "<group>"; };
+		566D35CA113EA648009256A0 /* TicketInfo1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TicketInfo1ViewController.h; path = ../TicketInfo1ViewController.h; sourceTree = "<group>"; };
+		566D35CB113EA648009256A0 /* TicketInfo1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TicketInfo1ViewController.m; path = ../TicketInfo1ViewController.m; sourceTree = "<group>"; };
+		566D35CC113EA648009256A0 /* TicketInfo1ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TicketInfo1ViewController.xib; path = ../TicketInfo1ViewController.xib; sourceTree = "<group>"; };
+		569A5C57113B650C00FFDEB3 /* TripWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripWrapper.h; sourceTree = "<group>"; };
+		569A5C58113B650C00FFDEB3 /* TripWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripWrapper.m; sourceTree = "<group>"; };
+		56A79012113BAC1300EE9BD5 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		56A79013113BAC1300EE9BD5 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		56A79014113BAC1300EE9BD5 /* MapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		56A79019113BAEB100EE9BD5 /* Pandav_BART_Map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pandav_BART_Map.png; sourceTree = "<group>"; };
+		56A82458113CD918002A836A /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
+		56A82459113CD918002A836A /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
+		56A8245A113CD918002A836A /* ScheduleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScheduleViewController.xib; sourceTree = "<group>"; };
+		56A8245E113CE27E002A836A /* TimeWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeWrapper.h; sourceTree = "<group>"; };
+		56A8245F113CE27E002A836A /* TimeWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeWrapper.m; sourceTree = "<group>"; };
+		56A8BBD411364B8C00C07EE1 /* EnterDestination.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EnterDestination.xib; sourceTree = "<group>"; };
+		56A8BC0511365E9600C07EE1 /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
+		56A8BC0611365E9600C07EE1 /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
+		56CD0E8B113EB78E004BC69F /* Step1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Step1ViewController.h; sourceTree = "<group>"; };
+		56CD0E8C113EB78E004BC69F /* Step1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Step1ViewController.m; sourceTree = "<group>"; };
+		56CD0E8D113EB78E004BC69F /* Step1ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Step1ViewController.xib; sourceTree = "<group>"; };
+		56CD0E90113EB79A004BC69F /* Step2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Step2ViewController.h; sourceTree = "<group>"; };
+		56CD0E91113EB79A004BC69F /* Step2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Step2ViewController.m; sourceTree = "<group>"; };
+		56CD0E92113EB79A004BC69F /* Step2ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Step2ViewController.xib; sourceTree = "<group>"; };
+		56CD0E95113EB7A4004BC69F /* Step3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Step3ViewController.h; sourceTree = "<group>"; };
+		56CD0E96113EB7A4004BC69F /* Step3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Step3ViewController.m; sourceTree = "<group>"; };
+		56CD0E97113EB7A4004BC69F /* Step3ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Step3ViewController.xib; sourceTree = "<group>"; };
+		56CD0E9A113EB7AE004BC69F /* Step4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Step4ViewController.h; sourceTree = "<group>"; };
+		56CD0E9B113EB7AE004BC69F /* Step4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Step4ViewController.m; sourceTree = "<group>"; };
+		56CD0E9C113EB7AE004BC69F /* Step4ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Step4ViewController.xib; sourceTree = "<group>"; };
+		56CD102F113ED014004BC69F /* bart-kiosk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bart-kiosk.jpg"; sourceTree = "<group>"; };
+		56CD1030113ED014004BC69F /* bart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bart.jpg; sourceTree = "<group>"; };
+		56CD1031113ED014004BC69F /* bartgate.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bartgate.jpg; sourceTree = "<group>"; };
+		56CD1032113ED014004BC69F /* gate_machine-r.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "gate_machine-r.jpg"; sourceTree = "<group>"; };
+		56CD1033113ED014004BC69F /* SSF_BART_southbound_tracks_sign.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SSF_BART_southbound_tracks_sign.JPG; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* BART-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BART-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				28860BE50F44EE6400985440 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				56CD102F113ED014004BC69F /* bart-kiosk.jpg */,
+				56CD1030113ED014004BC69F /* bart.jpg */,
+				56CD1031113ED014004BC69F /* bartgate.jpg */,
+				56CD1032113ED014004BC69F /* gate_machine-r.jpg */,
+				56CD1033113ED014004BC69F /* SSF_BART_southbound_tracks_sign.JPG */,
+				566D35CA113EA648009256A0 /* TicketInfo1ViewController.h */,
+				566D35CB113EA648009256A0 /* TicketInfo1ViewController.m */,
+				566D35CC113EA648009256A0 /* TicketInfo1ViewController.xib */,
+				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
+				28C286E00D94DF7D0034E888 /* RootViewController.m */,
+				1D3623240D0F684500981E51 /* BARTAppDelegate.h */,
+				1D3623250D0F684500981E51 /* BARTAppDelegate.m */,
+				5661A5A41135E87C00414A0C /* EnterDestination.h */,
+				5661A5A51135E87C00414A0C /* EnterDestination.m */,
+				56A8BBD411364B8C00C07EE1 /* EnterDestination.xib */,
+				5661A5A91135E89300414A0C /* DisplayCostRoute.h */,
+				5661A5AA1135E89300414A0C /* DisplayCostRoute.m */,
+				5661A5AB1135E89300414A0C /* DisplayCostRoute.xib */,
+				5661A5B91135ED0500414A0C /* MainViewController.h */,
+				5661A5BA1135ED0500414A0C /* MainViewController.m */,
+				5661A5BB1135ED0500414A0C /* MainViewController.xib */,
+				56A8BC0511365E9600C07EE1 /* XMLParser.h */,
+				56A8BC0611365E9600C07EE1 /* XMLParser.m */,
+				569A5C57113B650C00FFDEB3 /* TripWrapper.h */,
+				569A5C58113B650C00FFDEB3 /* TripWrapper.m */,
+				56A79012113BAC1300EE9BD5 /* MapViewController.h */,
+				56A79013113BAC1300EE9BD5 /* MapViewController.m */,
+				56A79014113BAC1300EE9BD5 /* MapViewController.xib */,
+				56A82458113CD918002A836A /* ScheduleViewController.h */,
+				56A82459113CD918002A836A /* ScheduleViewController.m */,
+				56A8245A113CD918002A836A /* ScheduleViewController.xib */,
+				56A8245E113CE27E002A836A /* TimeWrapper.h */,
+				56A8245F113CE27E002A836A /* TimeWrapper.m */,
+				566D2F80113E14BA009256A0 /* RoutesViewController.h */,
+				566D2F81113E14BA009256A0 /* RoutesViewController.m */,
+				566D2F82113E14BA009256A0 /* RoutesViewController.xib */,
+				566D2F8F113E25A9009256A0 /* TripLegWrapper.h */,
+				566D2F90113E25A9009256A0 /* TripLegWrapper.m */,
+				566D33E2113E832E009256A0 /* PastTripsTableViewController.h */,
+				566D33E3113E832E009256A0 /* PastTripsTableViewController.m */,
+				566D3424113E86DD009256A0 /* PastTripsTableViewController.xib */,
+				56CD0E8B113EB78E004BC69F /* Step1ViewController.h */,
+				56CD0E8C113EB78E004BC69F /* Step1ViewController.m */,
+				56CD0E8D113EB78E004BC69F /* Step1ViewController.xib */,
+				56CD0E90113EB79A004BC69F /* Step2ViewController.h */,
+				56CD0E91113EB79A004BC69F /* Step2ViewController.m */,
+				56CD0E92113EB79A004BC69F /* Step2ViewController.xib */,
+				56CD0E95113EB7A4004BC69F /* Step3ViewController.h */,
+				56CD0E96113EB7A4004BC69F /* Step3ViewController.m */,
+				56CD0E97113EB7A4004BC69F /* Step3ViewController.xib */,
+				56CD0E9A113EB7AE004BC69F /* Step4ViewController.h */,
+				56CD0E9B113EB7AE004BC69F /* Step4ViewController.m */,
+				56CD0E9C113EB7AE004BC69F /* Step4ViewController.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* BART.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* BART_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				56A79019113BAEB100EE9BD5 /* Pandav_BART_Map.png */,
+				28860B760F44E54D00985440 /* BART.xcdatamodel */,
+				2899E55F0DE3E45000AC0155 /* RootViewController.xib */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* BART-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+				28860BE40F44EE6400985440 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* BART */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "BART" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BART;
+			productName = BART;
+			productReference = 1D6058910D05DD3D006BFB54 /* BART.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "BART" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* BART */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				2899E5600DE3E45000AC0155 /* RootViewController.xib in Resources */,
+				5661A5AD1135E89300414A0C /* DisplayCostRoute.xib in Resources */,
+				5661A5BD1135ED0500414A0C /* MainViewController.xib in Resources */,
+				56A8BBD511364B8C00C07EE1 /* EnterDestination.xib in Resources */,
+				56A79016113BAC1300EE9BD5 /* MapViewController.xib in Resources */,
+				56A7901A113BAEB100EE9BD5 /* Pandav_BART_Map.png in Resources */,
+				56A8245C113CD918002A836A /* ScheduleViewController.xib in Resources */,
+				566D2F84113E14BB009256A0 /* RoutesViewController.xib in Resources */,
+				566D3425113E86DD009256A0 /* PastTripsTableViewController.xib in Resources */,
+				566D35CE113EA648009256A0 /* TicketInfo1ViewController.xib in Resources */,
+				56CD0E8F113EB78E004BC69F /* Step1ViewController.xib in Resources */,
+				56CD0E94113EB79A004BC69F /* Step2ViewController.xib in Resources */,
+				56CD0E99113EB7A4004BC69F /* Step3ViewController.xib in Resources */,
+				56CD0E9E113EB7AE004BC69F /* Step4ViewController.xib in Resources */,
+				56CD1034113ED014004BC69F /* bart-kiosk.jpg in Resources */,
+				56CD1035113ED014004BC69F /* bart.jpg in Resources */,
+				56CD1036113ED014004BC69F /* bartgate.jpg in Resources */,
+				56CD1037113ED014004BC69F /* gate_machine-r.jpg in Resources */,
+				56CD1038113ED014004BC69F /* SSF_BART_southbound_tracks_sign.JPG in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* BARTAppDelegate.m in Sources */,
+				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
+				28860B770F44E54D00985440 /* BART.xcdatamodel in Sources */,
+				5661A5A71135E87C00414A0C /* EnterDestination.m in Sources */,
+				5661A5AC1135E89300414A0C /* DisplayCostRoute.m in Sources */,
+				5661A5BC1135ED0500414A0C /* MainViewController.m in Sources */,
+				56A8BC0711365E9600C07EE1 /* XMLParser.m in Sources */,
+				569A5C59113B650C00FFDEB3 /* TripWrapper.m in Sources */,
+				56A79015113BAC1300EE9BD5 /* MapViewController.m in Sources */,
+				56A8245B113CD918002A836A /* ScheduleViewController.m in Sources */,
+				56A82460113CE27E002A836A /* TimeWrapper.m in Sources */,
+				566D2F83113E14BA009256A0 /* RoutesViewController.m in Sources */,
+				566D2F91113E25A9009256A0 /* TripLegWrapper.m in Sources */,
+				566D33E5113E832E009256A0 /* PastTripsTableViewController.m in Sources */,
+				566D35CD113EA648009256A0 /* TicketInfo1ViewController.m in Sources */,
+				56CD0E8E113EB78E004BC69F /* Step1ViewController.m in Sources */,
+				56CD0E93113EB79A004BC69F /* Step2ViewController.m in Sources */,
+				56CD0E98113EB7A4004BC69F /* Step3ViewController.m in Sources */,
+				56CD0E9D113EB7AE004BC69F /* Step4ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BART_Prefix.pch;
+				INFOPLIST_FILE = "BART-Info.plist";
+				PRODUCT_NAME = BART;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BART_Prefix.pch;
+				INFOPLIST_FILE = "BART-Info.plist";
+				PRODUCT_NAME = BART;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "BART" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "BART" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
